@@ -1,0 +1,46 @@
+<!--
+    CSS Background:
+    ---------------
+    It is used to define background effects of an element.
+    5 CSS background properties: 
+    1. background-color
+    2. background-image
+    3. backgound-repeat - repeat-x, repeat-y, no-repeat
+    4. background-attachment - scroll, fixed (You can control the scrolling functionality of the background)
+    5. background-position - Defines the intial position of the background image
+        Default -> top left
+        1. center
+        2. top
+        3. bottom
+        4. left
+        5. right
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Backgrounds</title>
+    <style>
+        h1, p {
+            background-color: #b0d4de;
+        }
+        body {
+            height: 100vh;
+            background-image: url("https://wallpapercave.com/dwp1x/wp2742433.jpg");
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-position: bottom right;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Background Color</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas ad
+      corrupti libero odit fuga, ullam officia. Optio ab corporis, sed ea
+      necessitatibus commodi. Accusamus?
+    </p>
+  </body>
+</html>
